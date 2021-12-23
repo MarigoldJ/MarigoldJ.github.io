@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "plum", "dirt", "neon", "mint", "default", "sunrise"
 
 # Site Settings
-locale: "en-US"
-title: "Site Title"
-title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
-name: "Your Name"
-description: "An amazing website."
+locale: "ko-KR"
+title: "안경쟁이의 일기장"
+title_separator: "|"
+subtitle: "오늘 알게된 것"
+name: "MarigoldJ"
+description: "하루를 일기처럼 기록하는 블로그입니다."
 url: "https://marigoldj.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "MarigoldJ/MarigoldJ.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
+  name: "Yusang Jeon"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  bio: "하나씩 아는 것을 늘려나가고 있는 예비 개발자입니다."
+  location: "Seoul, South Korea"
+  email: "yusang0130@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -275,6 +275,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
